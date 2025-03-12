@@ -3,6 +3,8 @@
     background: none;
     border: none;
     text-decoration: underline;
+    text-decoration-thickness: from-font;
+    text-underline-offset: 5px;
     &:hover,
     &:focus {
         color: $color-bronze;
@@ -13,6 +15,7 @@
 .button-dark,
 .button-colored {
     font-size: 1.5 * $spacing;
+    font-weight: 400;
     border: none;
     text-transform: uppercase;
     display: flex;
