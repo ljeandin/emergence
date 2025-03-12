@@ -10,4 +10,9 @@
     <Hero />
     <AboutPractice />
     <Testimonials />
+    <img
+        class="decorative-banner"
+        src="/src/assets/images/banners/banner_grass.jpg"
+        alt=""
+    />
 </template>
