@@ -1,0 +1,18 @@
+.header {
+    background-color: $color-background;
+    height: 8 * $spacing;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8 * $spacing;
+    border-bottom: 1px solid $color-black;
+
+    &__link {
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        &:hover {
+            border-bottom: 1px solid $color-black;
+        }
+    }
+}

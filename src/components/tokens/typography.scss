@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Aesthetic";
+    src: url("/src/assets/fonts/Aesthetic-Regular.otf")
+            format("embedded-opentype"),
+        url("/src/assets/fonts/Aesthetic-Regular.woff2")
+            format("woff2"),
+        url("/src/assets/fonts/Aesthetic-Regular.woff")
+            format("woff"),
+        url("/src/assets/fonts/Aesthetic-Regular.ttf")
+            format("truetype");
+}
+
+$aesthetic: "Aesthetic", serif;
+$montserrat: "Montserrat", sans-serif;
+$playfair-display: "Playfair Display", serif;
+
+body {
+    font-family: $montserrat;
+    font-size: 1.5 * $spacing;
+    color: $color-text;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: 1.5 * $spacing;
+    font-weight: 400;
+}
+
+a {
+    color: $color-text;
+}
+
+.heading-1 {
+    font-family: $aesthetic;
+    font-size: 5 * $spacing;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.heading-3 {
+    font-family: $playfair-display;
+    font-size: 3 * $spacing;
+    font-weight: 400;
+    font-style: normal;
+}
+
+// @media (min-width: $screen-xl) {
+//     .heading-1 {
+//         font-size: 6 * $spacing;
+//     }
+// }
