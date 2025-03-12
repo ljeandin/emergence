@@ -17,4 +17,10 @@
         alt=""
     />
     <Offer />
+
+    <img
+        class="decorative-banner"
+        src="/src/assets/images/banners/banner_people.jpg"
+        alt=""
+    />
 </template>
