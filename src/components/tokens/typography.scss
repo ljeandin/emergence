@@ -16,7 +16,7 @@ $playfair-display: "Playfair Display", serif;
 
 body {
     font-family: $montserrat;
-    font-size: 1.5 * $spacing;
+    font-size: 2 * $spacing;
     color: $color-text;
     font-weight: 400;
     font-style: normal;
@@ -41,6 +41,14 @@ a {
     font-style: normal;
     letter-spacing: 2px;
     line-height: 150%;
+}
+
+.heading-2 {
+    font-family: $playfair-display;
+    font-optical-sizing: auto;
+    font-size: 3 * $spacing;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .heading-3 {
