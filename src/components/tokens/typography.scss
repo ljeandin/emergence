@@ -36,14 +36,17 @@ a {
 
 .heading-1 {
     font-family: $aesthetic;
-    font-size: 5 * $spacing;
+    font-size: 3.5 * $spacing;
     font-weight: 400;
     font-style: normal;
+    letter-spacing: 2px;
+    line-height: 150%;
 }
 
 .heading-3 {
     font-family: $playfair-display;
-    font-size: 3 * $spacing;
+    font-optical-sizing: auto;
+    font-size: 2.5 * $spacing;
     font-weight: 400;
     font-style: normal;
 }

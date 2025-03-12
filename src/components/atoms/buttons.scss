@@ -1,0 +1,37 @@
+.button {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    padding: $spacing 4 * $spacing;
+    border: none;
+}
+
+.button--light {
+    background-color: $color-background;
+    color: $color-black;
+    &:hover,
+    &:focus {
+        background-color: $color-bronze;
+        color: $color-white;
+    }
+}
+
+.button--dark {
+    background-color: $color-black;
+    color: $color-white;
+    &:hover,
+    &:focus {
+        background-color: $color-bronze;
+        color: $color-white;
+    }
+}
+
+.button--colored {
+    background-color: $color-bronze;
+    color: $color-white;
+    &:hover,
+    &:focus {
+        background-color: $color-black;
+        color: $color-white;
+    }
+}

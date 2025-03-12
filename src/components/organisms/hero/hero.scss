@@ -1,0 +1,30 @@
+.hero {
+    display: flex;
+    align-items: center;
+    height: 70 * $spacing;
+    padding: 12 * $spacing;
+    background-image: url(/src/assets/images/hero/hero_background.jpg);
+    background-position: center;
+
+    &__text {
+        width: 50%;
+        min-width: 65 * $spacing;
+        text-align: center;
+        color: $color-white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3 * $spacing;
+    }
+
+    &__image-wrapper {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__image {
+        width: 100%;
+        max-width: 45 * $spacing;
+    }
+}
