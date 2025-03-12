@@ -28,8 +28,8 @@
 </script>
 
 <template>
-    <header>
-        <nav class="header">
+    <header class="header">
+        <nav class="header__links-wrapper">
             <a
                 class="header__link"
                 v-for="link in navLinks"

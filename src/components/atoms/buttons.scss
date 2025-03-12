@@ -1,5 +1,6 @@
 .button-discrete {
     color: $color-text;
+    background: none;
     border: none;
     text-decoration: underline;
     &:hover,
@@ -11,6 +12,7 @@
 .button-light,
 .button-dark,
 .button-colored {
+    font-size: 1.5 * $spacing;
     border: none;
     text-transform: uppercase;
     display: flex;

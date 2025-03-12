@@ -1,16 +1,26 @@
 .header {
+    width: 100%;
     background-color: $color-background;
-    height: 8 * $spacing;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8 * $spacing;
+    height: $header-height;
     border-bottom: 1px solid $color-black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    &__links-wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8 * $spacing;
+    }
 
     &__link {
         text-decoration: none;
         text-transform: uppercase;
         letter-spacing: 1px;
+        font-size: 1.5 * $spacing;
         &:hover {
             border-bottom: 1px solid $color-black;
         }
