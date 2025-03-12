@@ -8,7 +8,7 @@
                 praising pain was born and I will give you a
                 complete account of the system.
             </h2>
-            <button class="button button--light">
+            <button class="button-light">
                 Prenons rendez-vous
             </button>
         </div>

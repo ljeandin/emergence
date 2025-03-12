@@ -1,0 +1,16 @@
+.about-practice {
+    padding: 0 8 * $spacing;
+    max-width: 140 * $spacing;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6 * $spacing;
+    text-align: center;
+    &__keywords {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 12 * $spacing;
+    }
+}

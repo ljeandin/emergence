@@ -1,14 +1,26 @@
-.button {
+.button-discrete {
+    color: $color-text;
+    border: none;
+    text-decoration: underline;
+    &:hover,
+    &:focus {
+        color: $color-bronze;
+    }
+}
+
+.button-light,
+.button-dark,
+.button-colored {
+    border: none;
     text-transform: uppercase;
     display: flex;
     align-items: center;
     padding: $spacing 4 * $spacing;
-    border: none;
 }
 
-.button--light {
+.button-light {
     background-color: $color-background;
-    color: $color-black;
+    color: $color-text;
     &:hover,
     &:focus {
         background-color: $color-bronze;
@@ -16,7 +28,7 @@
     }
 }
 
-.button--dark {
+.button-dark {
     background-color: $color-black;
     color: $color-white;
     &:hover,
@@ -26,7 +38,7 @@
     }
 }
 
-.button--colored {
+.button-colored {
     background-color: $color-bronze;
     color: $color-white;
     &:hover,
