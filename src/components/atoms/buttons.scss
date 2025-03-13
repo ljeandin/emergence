@@ -11,6 +11,16 @@
     }
 }
 
+.button-icon {
+    display: flex;
+    width: 3 * $spacing;
+    height: 3 * $spacing;
+    & img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
 .button-light,
 .button-dark,
 .button-colored {

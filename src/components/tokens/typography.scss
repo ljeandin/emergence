@@ -67,8 +67,10 @@ em {
     font-style: normal;
 }
 
-// @media (min-width: $screen-xl) {
-//     .heading-1 {
-//         font-size: 6 * $spacing;
-//     }
-// }
+.heading-4 {
+    font-family: $playfair-display;
+    font-optical-sizing: auto;
+    font-size: 2 * $spacing;
+    font-weight: 400;
+    font-style: normal;
+}

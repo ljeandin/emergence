@@ -5,6 +5,7 @@
     import Testimonials from "./components/organisms/testimonials/Testimonials.vue";
     import Offer from "./components/organisms/offer/Offer.vue";
     import About from "./components/organisms/about/About.vue";
+    import Footer from "./components/organisms/footer/Footer.vue";
 </script>
 
 <template>
@@ -24,4 +25,5 @@
         alt=""
     />
     <About />
+    <Footer />
 </template>

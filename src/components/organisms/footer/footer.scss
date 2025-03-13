@@ -1,0 +1,17 @@
+.footer {
+    width: 100%;
+    border-top: 1px solid $color-black;
+    display: flex;
+    justify-content: space-between;
+    padding: 4 * $spacing 12 * $spacing;
+    &__column {
+        display: flex;
+        flex-direction: column;
+        gap: 2 * $spacing;
+    }
+
+    &__socials-wrapper {
+        display: flex;
+        gap: 2 * $spacing;
+    }
+}
