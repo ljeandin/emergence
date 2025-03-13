@@ -16,7 +16,7 @@ $playfair-display: "Playfair Display", serif;
 
 body {
     font-family: $montserrat;
-    font-size: 2 * $spacing;
+    font-size: 1.5 * $spacing;
     color: $color-text;
     font-weight: 300;
     font-style: normal;
@@ -44,7 +44,7 @@ em {
 
 .heading-1 {
     font-family: $aesthetic;
-    font-size: 3.5 * $spacing;
+    font-size: 2.5 * $spacing;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 2px;
@@ -54,7 +54,7 @@ em {
 .heading-2 {
     font-family: $playfair-display;
     font-optical-sizing: auto;
-    font-size: 3 * $spacing;
+    font-size: 2.5 * $spacing;
     font-weight: 400;
     font-style: normal;
 }
@@ -62,7 +62,7 @@ em {
 .heading-3 {
     font-family: $playfair-display;
     font-optical-sizing: auto;
-    font-size: 2.5 * $spacing;
+    font-size: $spacing-xxs;
     font-weight: 400;
     font-style: normal;
 }
@@ -70,7 +70,29 @@ em {
 .heading-4 {
     font-family: $playfair-display;
     font-optical-sizing: auto;
-    font-size: 2 * $spacing;
+    font-size: 1.5 * $spacing;
     font-weight: 400;
     font-style: normal;
+}
+
+@media (min-width: $screen-lg) {
+    body {
+        font-size: 2 * $spacing;
+    }
+
+    .heading-1 {
+        font-size: 3.5 * $spacing;
+    }
+
+    .heading-2 {
+        font-size: 3 * $spacing;
+    }
+
+    .heading-3 {
+        font-size: 2.5 * $spacing;
+    }
+
+    .heading-4 {
+        font-size: 1.5 * $spacing;
+    }
 }
