@@ -1,6 +1,4 @@
 .hero {
-    height: 70 * $spacing;
-    max-height: calc(90svh - $header-height);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,9 +20,15 @@
     }
 }
 
-@media (min-width: $screen-lg) {
+@media (min-width: $screen-md) {
     .hero {
         height: 70 * $spacing;
+        max-height: calc(90svh - $header-height);
+    }
+}
+
+@media (min-width: $screen-lg) {
+    .hero {
         padding: $spacing-xl;
         &__text {
             width: 50%;

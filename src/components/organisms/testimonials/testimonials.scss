@@ -32,6 +32,7 @@
         position: sticky;
         top: calc($header-height + $spacing-xs);
         width: 42 * $spacing;
+        padding-bottom: $spacing;
     }
 }
 
@@ -53,6 +54,7 @@
 
         &__image {
             position: static;
+            padding-bottom: 0;
         }
 
         &__quote-icon {
