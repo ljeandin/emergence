@@ -34,6 +34,14 @@ a {
     color: $color-text;
 }
 
+b {
+    font-weight: 500;
+}
+
+em {
+    color: $color-bronze;
+}
+
 .heading-1 {
     font-family: $aesthetic;
     font-size: 3.5 * $spacing;

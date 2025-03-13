@@ -29,6 +29,13 @@
     &__text {
         position: relative;
         max-width: 60ch;
+        li {
+            list-style-position: inside;
+
+            &:not(:last-child) {
+                margin-bottom: 3 * $spacing;
+            }
+        }
     }
 
     &__title {
