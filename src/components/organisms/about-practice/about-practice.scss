@@ -1,16 +1,29 @@
 .about-practice {
-    padding: 0 $spacing-lg;
+    padding: $spacing-xs $spacing-sm;
     max-width: 140 * $spacing;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: $spacing-md;
+    gap: $spacing-sm;
     text-align: center;
     &__keywords {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 12 * $spacing;
+    }
+}
+
+@media (min-width: $screen-lg) {
+    .about-practice {
+        padding: 0 $spacing-lg;
+        gap: $spacing-md;
+        &__keywords {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 12 * $spacing;
+        }
     }
 }
