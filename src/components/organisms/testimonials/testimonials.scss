@@ -1,21 +1,21 @@
 .testimonials {
-    padding: 0 $spacing-xl;
+    padding: 0 $spacing-sm;
     width: 100%;
 }
 
 .testimonial {
-    position: sticky;
-    top: $header-height;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
     gap: $spacing-xs;
-    padding-top: $spacing-xl;
     padding-bottom: $spacing-md;
     background: $color-background;
 
     &__text {
-        position: relative;
+        position: sticky;
+        top: $header-height;
         max-width: 60ch;
+        background-color: $color-background;
     }
 
     &__title {
@@ -23,12 +23,49 @@
     }
 
     &__quote-icon {
-        width: 3 * $spacing;
-        position: absolute;
-        transform: translateX(-150%);
+        display: none;
     }
 
     &__image {
+        max-height: calc(80vh - $header-height);
+        object-fit: cover;
+        position: sticky;
+        top: calc($header-height + $spacing-xs);
         width: 42 * $spacing;
+    }
+}
+
+@media (min-width: $screen-md) {
+    .testimonials {
+        padding: 0 $spacing-xl;
+    }
+
+    .testimonial {
+        position: sticky;
+        top: $header-height;
+        flex-direction: row;
+        align-items: flex-end;
+        padding: $spacing-md 0;
+
+        &__text {
+            position: static;
+        }
+
+        &__image {
+            position: static;
+        }
+
+        &__quote-icon {
+            display: block;
+            width: 3 * $spacing;
+            position: absolute;
+            transform: translateX(-150%);
+        }
+    }
+}
+
+@media (min-width: $screen-lg) {
+    .testimonial {
+        padding-top: $spacing-xl;
     }
 }
