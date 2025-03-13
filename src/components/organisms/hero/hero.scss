@@ -1,4 +1,6 @@
 .hero {
+    height: 70 * $spacing;
+    max-height: calc(90svh - $header-height);
     display: flex;
     justify-content: center;
     align-items: center;
