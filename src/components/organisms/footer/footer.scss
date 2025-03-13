@@ -3,15 +3,15 @@
     border-top: 2px solid $color-black;
     display: flex;
     justify-content: space-between;
-    padding: 4 * $spacing 12 * $spacing;
+    padding: $spacing-sm $spacing-xl;
     &__column {
         display: flex;
         flex-direction: column;
-        gap: 2 * $spacing;
+        gap: $spacing-xxs;
     }
 
     &__socials-wrapper {
         display: flex;
-        gap: 2 * $spacing;
+        gap: $spacing-xxs;
     }
 }

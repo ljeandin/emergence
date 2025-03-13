@@ -2,15 +2,15 @@
     width: 100%;
     display: flex;
     align-items: flex-end;
-    gap: 3 * $spacing;
-    padding: 12 * $spacing;
-    padding-bottom: 6 * $spacing;
+    gap: $spacing-xs;
+    padding: $spacing-xl;
+    padding-bottom: $spacing-md;
     background: $color-background;
 
     &__text {
         max-width: 60ch;
         & > *:not(:last-child) {
-            margin-bottom: 3 * $spacing;
+            margin-bottom: $spacing-xs;
         }
     }
 

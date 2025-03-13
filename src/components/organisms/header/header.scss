@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2 * $spacing;
+    padding: 0 $spacing-xxs;
 
     &__burger-menu {
         position: relative;
@@ -31,9 +31,9 @@
         background-color: $color-background;
         display: flex;
         flex-direction: column;
-        padding: 4 * $spacing;
-        padding-top: calc(2 * $spacing + $header-height);
-        gap: 3 * $spacing;
+        padding: $spacing-sm;
+        padding-top: calc($spacing-xxs + $header-height);
+        gap: $spacing-xs;
         border-left: 2px solid $color-black;
         transition: transform 300ms ease-in;
         transform: translateX(100%);
@@ -48,7 +48,7 @@
     }
 
     &__link {
-        height: 2 * $spacing;
+        height: $spacing-xxs;
         text-decoration: none;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -62,7 +62,7 @@
 
 @media (min-width: $screen-md) {
     .header {
-        padding: 0 4 * $spacing;
+        padding: 0 $spacing-sm;
 
         &__title {
             display: none;
@@ -90,6 +90,6 @@
 
 @media (min-width: $screen-lg) {
     .header__links-wrapper {
-        gap: 8 * $spacing;
+        gap: $spacing-lg;
     }
 }

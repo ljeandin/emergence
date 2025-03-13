@@ -5,12 +5,12 @@
     align-items: center;
 
     &__header {
-        padding: 6 * $spacing 8 * $spacing;
+        padding: $spacing-md $spacing-lg;
         max-width: 140 * $spacing;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 6 * $spacing;
+        gap: $spacing-md;
         text-align: center;
     }
 }
@@ -21,9 +21,9 @@
     top: $header-height;
     display: flex;
     align-items: center;
-    gap: 3 * $spacing;
-    padding: 12 * $spacing;
-    padding-bottom: 6 * $spacing;
+    gap: $spacing-xs;
+    padding: $spacing-xl;
+    padding-bottom: $spacing-md;
     background: $color-background;
 
     &__text {
@@ -33,13 +33,13 @@
             list-style-position: inside;
 
             &:not(:last-child) {
-                margin-bottom: 3 * $spacing;
+                margin-bottom: $spacing-xs;
             }
         }
     }
 
     &__title {
-        margin-bottom: 3 * $spacing;
+        margin-bottom: $spacing-xs;
         font-family: $aesthetic;
     }
 

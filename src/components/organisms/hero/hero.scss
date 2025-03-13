@@ -1,30 +1,43 @@
 .hero {
     display: flex;
+    justify-content: center;
     align-items: center;
-    height: 70 * $spacing;
-    padding: 12 * $spacing;
+    padding: $spacing-sm $spacing-xxs;
     background-image: url(/src/assets/images/hero/hero_background.jpg);
     background-position: center;
 
     &__text {
-        width: 50%;
-        min-width: 65 * $spacing;
         text-align: center;
         color: $color-white;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 3 * $spacing;
+        gap: $spacing-xs;
     }
 
     &__image-wrapper {
-        width: 50%;
-        display: flex;
-        justify-content: center;
+        display: none;
     }
+}
 
-    &__image {
-        width: 100%;
-        max-width: 45 * $spacing;
+@media (min-width: $screen-lg) {
+    .hero {
+        height: 70 * $spacing;
+        padding: $spacing-xl;
+        &__text {
+            width: 50%;
+            min-width: 65 * $spacing;
+        }
+
+        &__image-wrapper {
+            display: flex;
+            justify-content: center;
+            width: 50%;
+        }
+
+        &__image {
+            width: 100%;
+            max-width: 45 * $spacing;
+        }
     }
 }

@@ -32,7 +32,7 @@
     text-transform: uppercase;
     display: flex;
     align-items: center;
-    padding: $spacing 4 * $spacing;
+    padding: $spacing $spacing-sm;
 }
 
 .button-light {
