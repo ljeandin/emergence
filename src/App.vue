@@ -4,6 +4,7 @@
     import AboutPractice from "./components/organisms/about-practice/AboutPractice.vue";
     import Testimonials from "./components/organisms/testimonials/Testimonials.vue";
     import Offer from "./components/organisms/offer/Offer.vue";
+    import About from "./components/organisms/about/About.vue";
 </script>
 
 <template>
@@ -17,10 +18,10 @@
         alt=""
     />
     <Offer />
-
     <img
         class="decorative-banner"
         src="/src/assets/images/banners/banner_people.jpg"
         alt=""
     />
+    <About />
 </template>
