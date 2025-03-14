@@ -23,16 +23,34 @@
                 <a
                     class="button-icon"
                     href="https://www.instagram.com/emergence.fengshui"
+                    aria-labelledby="button-label-instagram"
                 >
+                    <span
+                        id="button-label-instagram"
+                        hidden
+                    >
+                        Retrouvez moi sur Instagram
+                    </span>
+
                     <img
                         src="@/assets/images/footer/instagram_icon.svg"
                         alt=""
+                        aria-hidden="true"
+                        focusable="false"
                     />
                 </a>
                 <a
                     class="button-icon"
                     href="https://www.linkedin.com/company/emergence-feng-shui/"
+                    aria-labelledby="button-label-linkedin"
                 >
+                    <span
+                        id="button-label-linkedin"
+                        hidden
+                    >
+                        Retrouvez moi sur Linkedin
+                    </span>
+
                     <img
                         src="@/assets/images/footer/linkedin_icon.svg"
                         alt=""

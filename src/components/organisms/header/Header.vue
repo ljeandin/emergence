@@ -46,7 +46,13 @@
                 'header__burger-menu--open': isMenuOpen,
             }"
             @click="toggleMenu"
+            aria-labelledby="button-label-menu"
         >
+            <span
+                id="button-label-menu"
+                hidden
+                >Menu</span
+            >
             <img
                 src="@/assets/images/header/menu_icon.svg"
                 alt=""
