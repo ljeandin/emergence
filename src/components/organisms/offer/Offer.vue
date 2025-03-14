@@ -73,7 +73,7 @@
             />
             <div class="offer-part__text">
                 <h2 class="offer-part__title heading-2">
-                    {{ offer.title }} :
+                    {{ offer.title }}&nbsp:
                     <em>{{ offer.subtitle }}</em>
                 </h2>
                 <div v-if="offer.type === 'paragraph'">
