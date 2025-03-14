@@ -1,10 +1,10 @@
 .footer {
     width: 100%;
-    overflow: hidden;
     border-top: 2px solid $color-black;
     display: flex;
-    justify-content: space-between;
-    padding: $spacing-sm $spacing-xl;
+    flex-direction: column;
+    gap: $spacing-xs;
+    padding: $spacing-xs;
     &__column {
         display: flex;
         flex-direction: column;
@@ -14,5 +14,18 @@
     &__socials-wrapper {
         display: flex;
         gap: $spacing-xxs;
+    }
+}
+
+@media (min-width: $screen-md) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: $screen-lg) {
+    .footer {
+        padding: $spacing-sm $spacing-xl;
     }
 }
