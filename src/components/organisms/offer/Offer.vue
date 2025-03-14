@@ -57,7 +57,7 @@
             </p>
             <a
                 class="button-discrete"
-                href=""
+                href="#les-piliers"
             >
                 Découvre les 3 piliers essentiels à ton
                 épanouissement
@@ -68,6 +68,7 @@
             v-for="(offer, index) in offers"
             :key="index"
             class="offer-part"
+            id="les-piliers"
         >
             <img
                 class="offer-part__image"
