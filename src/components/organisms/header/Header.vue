@@ -33,9 +33,13 @@
 
 <template>
     <header class="header">
-        <h1 class="header__title heading-4">
-            Émergence feng-shui
-        </h1>
+        <a
+            href="#accueil"
+            class="header__title heading-4"
+        >
+            <h1>Émergence feng-shui</h1>
+        </a>
+
         <button
             class="header__burger-menu button-icon"
             :class="{
