@@ -38,9 +38,11 @@
                 is the same as saying through shrinking from
                 toil and pain.
             </p>
-            <button class="button-colored">
-                Réserve une consultation
-            </button>
+            <div class="about__button-wrapper">
+                <button class="button-colored">
+                    Réserve une consultation
+                </button>
+            </div>
         </div>
     </section>
 </template>

@@ -1,10 +1,10 @@
 .about {
     width: 100%;
-    overflow: hidden;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
     gap: $spacing-xs;
-    padding: $spacing-xl;
+    padding: $spacing-sm;
     padding-bottom: $spacing-md;
     background: $color-background;
 
@@ -15,7 +15,37 @@
         }
     }
 
+    &__button-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
     &__image {
-        width: 42 * $spacing;
+        max-height: calc(80vh - $header-height);
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+@media (min-width: $screen-md) {
+    .about {
+        flex-direction: row;
+
+        &__button-wrapper {
+            justify-content: flex-start;
+        }
+    }
+}
+
+@media (min-width: $screen-lg) {
+    .about {
+        padding: $spacing-xl;
+        padding-bottom: $spacing-md;
+        align-items: flex-end;
+
+        &__image {
+            max-height: none;
+            width: 42 * $spacing;
+        }
     }
 }
