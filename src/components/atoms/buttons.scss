@@ -30,9 +30,11 @@
     font-weight: 400;
     border: none;
     text-transform: uppercase;
-    display: flex;
+    display: inline-flex;
     align-items: center;
+    justify-content: center;
     padding: $spacing $spacing-sm;
+    text-decoration: none;
 }
 
 .button-light {

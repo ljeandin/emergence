@@ -33,8 +33,7 @@
 
 @media (min-width: $screen-lg) {
     .about {
-        padding: $spacing-xl;
-        padding-bottom: $spacing-md;
+        padding: $spacing-md $spacing-xl;
         align-items: flex-end;
 
         &__image {

@@ -1,5 +1,8 @@
 <template>
-    <section class="about">
+    <section
+        class="about"
+        id="a-propos"
+    >
         <img
             class="about__image"
             src="@/assets/images/about/about_portrait.jpg"
@@ -39,9 +42,12 @@
                 toil and pain.
             </p>
 
-            <button class="button-colored">
+            <a
+                class="button-colored"
+                href="https://calendar.app.google/pPjXiihbKo3CW7Xs6"
+            >
                 Réserve une consultation
-            </button>
+            </a>
         </div>
     </section>
 </template>

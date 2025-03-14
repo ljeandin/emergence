@@ -28,7 +28,10 @@
 </script>
 
 <template>
-    <section class="testimonials">
+    <section
+        class="testimonials"
+        id="temoignages"
+    >
         <div
             v-for="(testimonial, index) in testimonials"
             :key="index"

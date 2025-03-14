@@ -10,7 +10,10 @@
 </script>
 
 <template>
-    <section class="about-practice">
+    <section
+        class="about-practice"
+        id="le-feng-shui"
+    >
         <div class="about-practice__keywords">
             <span>harmonie</span>
             <span>équilibre</span>

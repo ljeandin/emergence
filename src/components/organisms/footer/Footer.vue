@@ -4,13 +4,13 @@
             <h2 class="heading-4">Contact</h2>
             <a
                 class="button-discrete"
-                href=""
+                href="mailto:contact.emergencefengshui@gmail.com"
             >
                 contact.emergencefengshui@gmail.com
             </a>
             <a
                 class="button-discrete"
-                href=""
+                href="https://calendar.app.google/pPjXiihbKo3CW7Xs6"
             >
                 Réserve une consultation de découverte
             </a>
@@ -22,7 +22,7 @@
             <div class="footer__socials-wrapper">
                 <a
                     class="button-icon"
-                    href=""
+                    href="https://www.instagram.com/emergence.fengshui"
                 >
                     <img
                         src="@/assets/images/footer/instagram_icon.svg"
@@ -31,7 +31,7 @@
                 </a>
                 <a
                     class="button-icon"
-                    href=""
+                    href="https://www.linkedin.com/company/emergence-feng-shui/"
                 >
                     <img
                         src="@/assets/images/footer/linkedin_icon.svg"
@@ -50,7 +50,7 @@
             </a>
             <a
                 class="button-discrete"
-                href="www.luciejeandin.com"
+                href="https://www.luciejeandin.com"
             >
                 Site par Lucie Jeandin
             </a>

@@ -39,7 +39,10 @@
 </script>
 
 <template>
-    <section class="offer">
+    <section
+        class="offer"
+        id="services"
+    >
         <div class="offer__header">
             <h2 class="heading-3">
                 L'accompagnement "Profondeur Énergétique"

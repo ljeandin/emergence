@@ -19,12 +19,15 @@
     };
 
     const navLinks = [
-        { name: "Accueil", link: "#" },
-        { name: "Le feng-shui", link: "#" },
-        { name: "Témoignages", link: "#" },
-        { name: "Services", link: "#" },
-        { name: "À propos", link: "#" },
-        { name: "Réservation", link: "#" },
+        { name: "Accueil", link: "#accueil" },
+        { name: "Le feng-shui", link: "#le-feng-shui" },
+        { name: "Témoignages", link: "#temoignages" },
+        { name: "Services", link: "#services" },
+        { name: "À propos", link: "#a-propos" },
+        {
+            name: "Réservation",
+            link: "https://calendar.app.google/pPjXiihbKo3CW7Xs6",
+        },
     ];
 </script>
 
