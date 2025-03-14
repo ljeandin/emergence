@@ -75,7 +75,7 @@ em {
     font-style: normal;
 }
 
-@media (min-width: $screen-lg) {
+@media (min-width: $screen-xl) {
     body {
         font-size: 2 * $spacing;
     }
@@ -93,6 +93,6 @@ em {
     }
 
     .heading-4 {
-        font-size: 1.5 * $spacing;
+        font-size: 2 * $spacing;
     }
 }
