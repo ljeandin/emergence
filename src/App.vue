@@ -10,20 +10,22 @@
 
 <template>
     <Header />
-    <Hero />
-    <AboutPractice />
-    <Testimonials />
-    <img
-        class="decorative-banner"
-        src="/src/assets/images/banners/banner_grass.jpg"
-        alt=""
-    />
-    <Offer />
-    <img
-        class="decorative-banner"
-        src="/src/assets/images/banners/banner_people.jpg"
-        alt=""
-    />
-    <About />
-    <Footer />
+    <main>
+        <Hero />
+        <AboutPractice />
+        <Testimonials />
+        <img
+            class="decorative-banner"
+            src="/src/assets/images/banners/banner_grass.jpg"
+            alt=""
+        />
+        <Offer />
+        <img
+            class="decorative-banner"
+            src="/src/assets/images/banners/banner_people.jpg"
+            alt=""
+        />
+        <About />
+        <Footer />
+    </main>
 </template>

@@ -6,16 +6,15 @@
         <div class="hero__text">
             <h1 class="heading-3">Emergence Feng-Shui</h1>
             <h2 class="heading-1">
-                But I must explain to you how all this
-                mistaken idea of denouncing pleasure and
-                praising pain was born and I will give you a
-                complete account of the system.
+                Optimisez l’énergie de votre maison ou
+                bureau grâce aux principes du Feng Shui
+                Traditionnel.
             </h2>
             <a
                 class="button-light"
                 href="https://calendar.app.google/pPjXiihbKo3CW7Xs6"
             >
-                Prenons rendez-vous
+                Discutons de votre projet Feng Shui
             </a>
         </div>
         <div class="hero__image-wrapper">

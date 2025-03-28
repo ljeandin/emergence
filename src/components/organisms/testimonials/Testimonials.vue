@@ -5,24 +5,24 @@
                 "@/assets/images/testimonials/marie.jpg",
                 import.meta.url
             ).href,
-            name: "Marie, 34 ans",
-            review: "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain",
+            name: " Hilda",
+            review: "Charlotte est une personne douce et humble, avec une réelle expertise. J’ai toujours apprécié son professionnalisme, sa patience et son sens du détail. Elle sait créer un climat de confiance et apporter des solutions adaptées, ce qui fait toute la différence.",
         },
         {
             picture: new URL(
                 "@/assets/images/testimonials/josie.jpg",
                 import.meta.url
             ).href,
-            name: "Josie, 32 ans",
-            review: "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.",
+            name: "Maëlle",
+            review: "Te côtoyer et travailler avec toi a été un vrai bonheur. Ta serviabilité, ton professionnalisme et ton envie d’apprendre font de toi une personne inspirante. Ton énergie positive et ta bonne humeur constante sont des atouts précieux.",
         },
         {
             picture: new URL(
                 "@/assets/images/testimonials/beatrice.jpg",
                 import.meta.url
             ).href,
-            name: "Béatrice, 43 ans",
-            review: "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain",
+            name: "Patricia",
+            review: "J’ai eu la chance de travailler avec Charlotte et j’ai toujours admiré sa motivation, son écoute et sa bienveillance. C’est une personne de confiance, avec de belles valeurs humaines.",
         },
     ];
 </script>

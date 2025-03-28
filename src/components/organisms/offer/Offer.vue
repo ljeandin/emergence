@@ -1,22 +1,25 @@
 <script setup>
+    import { ref } from "vue";
+
     const offers = [
         {
             title: "1er pilier",
             subtitle: "Le rapport d’expertise",
             type: "paragraph",
-            content: `Une analyse complète de ton habitat selon les principes du Feng Shui traditionnel (l'école de la forme,
-              sectorisation Bagua et carré LoShu, manques/extensions, les 8 palais des habitants, leurs orientations favorables,
-              les remèdes et activateurs liés aux étoiles volantes), <b>guidée par des vidéos explicatives</b> et un
-              <b>calendrier “plan d’action”</b>.`,
+            content: `Grâce à une analyse détaillée, vous comprenez comment votre environnement influence votre énergie et votre bien-être.
+En s’appuyant sur la sectorisation Bagua, le carré LoShu et les 8 palais, l’analyse révèle comment optimiser chaque espace selon les besoins spécifiques de chaque habitant.
+Les étoiles volantes aident à corriger les déséquilibres énergétiques et à stimuler la chance, la santé et la prospérité. <br />
+Le calendrier “plan d’action” offre une feuille de route claire pour mettre en place les ajustements au bon moment, maximisant les résultats sur le long terme. Il vous aidera à prioriser selon les recommandations.
+Vous obtiendrez une méthode complète et guidée pour transformer votre espace de vie en un véritable allié énergétique, aligné avec vos objectifs et votre bien-être.`,
         },
         {
             title: "2ème pilier",
             subtitle: "L’accompagnement",
             type: "list",
             content: [
-                `<b>1 Atelier d’intention Feng Shui par mois</b> posez vos intentions, partagez vos expériences et renforcez votre connexion à votre environnement.`,
-                `<b>1 Séance de questions/réponses par semaine :</b> affine ta compréhension et co-construire des solutions décoratives adaptées à ton espace.`,
-                `<b>1 Communauté bienveillante et inspirante</b> où tu pourras partager ton parcours, poser tes questions et célébrer tes avancées.`,
+                `<b>1 Atelier d’intention Feng Shui collectif d'une heure par mois</b> posez vos intentions, partagez vos expériences et renforcez votre connexion à votre environnement.`,
+                `<b>1 Séance de questions/réponses d'une heure par semaine :</b> affine ta compréhension et co-construire des solutions décoratives adaptées à ton espace.`,
+                `<b>1 Communauté privée bienveillante et inspirante</b> où tu pourras partager ton parcours, poser tes questions et célébrer tes avancées.`,
             ],
         },
         {
@@ -24,7 +27,7 @@
             subtitle: "L’ancrage",
             type: "list",
             content: [
-                `<b>3 Méditations guidées :</b> elles te guideront au fur et à mesure de l’accompagnement pour manifester la transformation que tu mérites.`,
+                `<b>Accès à 1 méditation guidée par mois :</b> elle te guidera au fur et à mesure de l’accompagnement pour manifester la transformation que tu mérites.`,
                 `<b>Découvertes symboliques, purification et lithothérapie:</b> utilise des objets porteurs de sens et intègre la lithothérapie dans les pièces principales. Il est essentiel de rafraichir l’énergie qui a stagné et de se débarrasser des énergies négatives.`,
             ],
         },
@@ -36,6 +39,13 @@
             import.meta.url
         ).href;
     };
+
+    let is_more_infos_visible = ref(false);
+
+    function toggleMoreInfosVisibility() {
+        is_more_infos_visible.value =
+            !is_more_infos_visible.value;
+    }
 </script>
 
 <template>
@@ -45,23 +55,119 @@
     >
         <div class="offer__header">
             <h2 class="heading-3">
-                L'accompagnement "Profondeur Énergétique"
+                OFFRE <br />
+                Profondeur énergétique
             </h2>
             <p class="heading-1">
-                Un accompagnement à distance de 3 mois pour
-                transformer ton habitat en une source
-                d’énergie pOsitive et retrouver ton
-                équilibre, ta vitalité et ton bien-être,
-                tant personnel que professionnel, grâce au
-                Feng Shui traditionnel.
+                Transforme ton espace, libère ton énergie :
+                je t’accompagne durant 3 mois en ligne pour
+                réveiller ta vitalité et booster ta réussite
+                grâce au Feng Shui traditionnel.
             </p>
-            <a
+            <button
                 class="button-discrete"
-                href="#les-piliers"
+                @click="toggleMoreInfosVisibility()"
             >
-                Découvre les 3 piliers essentiels à ton
-                épanouissement
-            </a>
+                Plongez au cœur de mon accompagnement
+                sur-mesure.
+            </button>
+
+            <div v-show="is_more_infos_visible">
+                <h3 class="heading-2">
+                    Votre espace, votre énergie : un
+                    accompagnement Feng Shui personnalisé
+                </h3>
+
+                <br />
+
+                <h4 class="heading-3">
+                    Analyse énergétique feng shui : la carte
+                    énergétique
+                </h4>
+
+                <br />
+                <p>
+                    Au-delà des principes décoratifs souvent
+                    associés au Feng Shui, j’utilise une
+                    méthode d’analyse avancée appelée "les
+                    étoiles volantes". Il s’agit d’une
+                    cartographie énergétique qui croise
+                    trois dimensions essentielles :<br />
+                    <b>Le temps :</b> chaque période
+                    influence la qualité et la nature des
+                    énergies présentes.<br />
+                    <b>L’espace :</b> l’agencement du lieu
+                    et son orientation jouent un rôle clé
+                    dans la répartition des flux
+                    énergétiques.<br />
+                    <b>Les personnes :</b> chaque individu
+                    possède un chiffre kua ou ming gua
+                    déterminant des directions personnelles
+                    favorables, influençant son sommeil, sa
+                    concentration ou sa vitalité.<br />
+                    En croisant ces données, on obtient une
+                    lecture précise du potentiel énergétique
+                    de votre maison. L’objectif est de
+                    capter et de diriger le Chi de manière
+                    optimale pour qu’il devienne votre allié
+                    au quotidien — plutôt qu’une source
+                    invisible de blocages, de fatigue ou de
+                    tensions.<br />
+                </p>
+
+                <br />
+
+                <h4 class="heading-3">
+                    À qui s’adresse cette offre ?
+                </h4>
+                <br />
+                <p>
+                    <b>Les particuliers et les pros :</b>
+                    <br /><br />
+                    Qui sont en création des plans de leurs
+                    futur maison et qui souhaitent
+                    déterminer le placement des pièces.<br />
+                    <br />
+                    Qui emménagent et qui ont des projets
+                    décoratifs et souhaitant bénéficier des
+                    meilleures énergies<br />
+                    <br />
+                    Qui on envie de renouveau et d’avancer
+                    dans leur vie.<br />
+                    <br />
+                    Qui travaillent de chez soi, pour créer
+                    un cadre propice à la réussite et à
+                    l’abondance.<br />
+                </p>
+
+                <br />
+
+                <h4 class="heading-3">
+                    Déroulement de l’offre :
+                </h4>
+                <br />
+                <p>
+                    <b>Entretien initial</b> en visio pour
+                    échanger sur votre situation et définir
+                    vos objectifs.<br />
+                    <b>Analyse</b> de votre plan et
+                    cartographie énergétique de votre espace
+                    de vie.<br />
+                    <b>Rapport détaillé</b> incluant des
+                    recommandations pratiques pour
+                    harmoniser les énergies et corriger les
+                    déséquilibres.<br />
+                    <b>Suivi</b> de 3 mois en collectif.<br />
+                    <br />
+                    <b>Documents à fournir :</b>
+                    <br />
+                    Photos <br />
+                    Plan à l’échelle<br />
+                    Orientation de la porte d’entrée selon
+                    mes instructions<br />
+                    Questionnaires habitant/habitat
+                </p>
+            </div>
         </div>
 
         <div

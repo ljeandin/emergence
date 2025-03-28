@@ -1,11 +1,15 @@
 .about-practice {
     padding: $spacing-xs $spacing-sm;
-    max-width: 140 * $spacing;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: $spacing-sm;
     text-align: center;
+    & > * {
+        max-width: 140 * $spacing;
+    }
     &__keywords {
         width: 100%;
         display: flex;
@@ -18,6 +22,7 @@
     .about-practice {
         padding: 0 $spacing-lg;
         gap: $spacing-md;
+        max-width: none;
         &__keywords {
             width: 100%;
             display: flex;
