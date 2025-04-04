@@ -6,9 +6,9 @@
         <div class="hero__text">
             <h1 class="heading-3">Emergence Feng-Shui</h1>
             <h2 class="heading-1">
-                Optimisez l’énergie de votre maison ou
-                bureau grâce aux principes du Feng Shui
-                Traditionnel.
+                Optimisez l’énergie de votre maison et de
+                votre bureau grâce aux principes du Feng
+                Shui Traditionnel.
             </h2>
             <a
                 class="button-light"
