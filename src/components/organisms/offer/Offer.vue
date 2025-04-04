@@ -6,11 +6,11 @@
             title: "1er pilier",
             subtitle: "Le rapport d’expertise",
             type: "paragraph",
-            content: `Grâce à une analyse détaillée, vous comprenez comment votre environnement influence votre énergie et votre bien-être.
-En s’appuyant sur la sectorisation Bagua, le carré LoShu et les 8 palais, l’analyse révèle comment optimiser chaque espace selon les besoins spécifiques de chaque habitant.
+            content: `Grâce à une <b>analyse détaillée</b>, vous comprenez comment votre environnement influence votre énergie et votre bien-être.<br />
+En s’appuyant sur la sectorisation Bagua, le carré LoShu et les 8 palais, l’analyse révèle comment optimiser chaque espace selon les besoins spécifiques de chaque habitant.<br />
 Les étoiles volantes aident à corriger les déséquilibres énergétiques et à stimuler la chance, la santé et la prospérité. <br />
-Le calendrier “plan d’action” offre une feuille de route claire pour mettre en place les ajustements au bon moment, maximisant les résultats sur le long terme. Il vous aidera à prioriser selon les recommandations.
-Vous obtiendrez une méthode complète et guidée pour transformer votre espace de vie en un véritable allié énergétique, aligné avec vos objectifs et votre bien-être.`,
+Le <b>calendrier “plan d’action”</b> offre une feuille de route claire pour mettre en place les ajustements au bon moment, maximisant les résultats sur le long terme. Il vous aidera à prioriser selon les recommandations.<br />
+Vous obtiendrez une <b>méthode complète et guidée</b> pour transformer votre espace de vie en un véritable allié énergétique, aligné avec vos objectifs et votre bien-être.`,
         },
         {
             title: "2ème pilier",
@@ -27,7 +27,7 @@ Vous obtiendrez une méthode complète et guidée pour transformer votre espace 
             subtitle: "L’ancrage",
             type: "list",
             content: [
-                `<b>Accès à 1 méditation guidée par mois :</b> elle te guidera au fur et à mesure de l’accompagnement pour manifester la transformation que tu mérites.`,
+                `<b>Accès à 1 audio par mois :</b> il te guidera au fur et à mesure de l’accompagnement pour manifester la transformation que tu mérites.`,
                 `<b>Découvertes symboliques, purification et lithothérapie:</b> utilise des objets porteurs de sens et intègre la lithothérapie dans les pièces principales. Il est essentiel de rafraichir l’énergie qui a stagné et de se débarrasser des énergies négatives.`,
             ],
         },
@@ -54,10 +54,6 @@ Vous obtiendrez une méthode complète et guidée pour transformer votre espace 
         id="services"
     >
         <div class="offer__header">
-            <h2 class="heading-3">
-                OFFRE <br />
-                Profondeur énergétique
-            </h2>
             <p class="heading-1">
                 Transforme ton espace, libère ton énergie :
                 je t’accompagne durant 3 mois en ligne pour
@@ -80,19 +76,13 @@ Vous obtiendrez une méthode complète et guidée pour transformer votre espace 
 
                 <br />
 
-                <h4 class="heading-3">
-                    Analyse énergétique feng shui : la carte
-                    énergétique
-                </h4>
-
-                <br />
-                <p>
+                <p class="offer__details">
                     Au-delà des principes décoratifs souvent
                     associés au Feng Shui, j’utilise une
                     méthode d’analyse avancée appelée "les
                     étoiles volantes". Il s’agit d’une
                     cartographie énergétique qui croise
-                    trois dimensions essentielles :<br />
+                    trois dimensions essentielles :<br /><br />
                     <b>Le temps :</b> chaque période
                     influence la qualité et la nature des
                     énergies présentes.<br />
@@ -104,7 +94,7 @@ Vous obtiendrez une méthode complète et guidée pour transformer votre espace 
                     possède un chiffre kua ou ming gua
                     déterminant des directions personnelles
                     favorables, influençant son sommeil, sa
-                    concentration ou sa vitalité.<br />
+                    concentration ou sa vitalité.<br /><br />
                     En croisant ces données, on obtient une
                     lecture précise du potentiel énergétique
                     de votre maison. L’objectif est de
@@ -121,7 +111,7 @@ Vous obtiendrez une méthode complète et guidée pour transformer votre espace 
                     À qui s’adresse cette offre ?
                 </h4>
                 <br />
-                <p>
+                <p class="offer__details">
                     <b>Les particuliers et les pros :</b>
                     <br /><br />
                     Qui sont en création des plans de leurs
@@ -146,7 +136,7 @@ Vous obtiendrez une méthode complète et guidée pour transformer votre espace 
                     Déroulement de l’offre :
                 </h4>
                 <br />
-                <p>
+                <p class="offer__details">
                     <b>Entretien initial</b> en visio pour
                     échanger sur votre situation et définir
                     vos objectifs.<br />
@@ -159,13 +149,32 @@ Vous obtiendrez une méthode complète et guidée pour transformer votre espace 
                     déséquilibres.<br />
                     <b>Suivi</b> de 3 mois en collectif.<br />
                     <br />
-                    <b>Documents à fournir :</b>
+                </p>
+
+                <h4 class="heading-3">
+                    Documents à fournir :
+                </h4>
+
+                <br />
+
+                <ul class="offer__details">
                     <br />
-                    Photos <br />
-                    Plan à l’échelle<br />
-                    Orientation de la porte d’entrée selon
-                    mes instructions<br />
-                    Questionnaires habitant/habitat
+                    <li>Photos</li>
+                    <li>Plan à l’échelle</li>
+                    <li>
+                        Orientation de la porte d’entrée
+                        selon mes instructions
+                    </li>
+                    <li>Questionnaires habitant/habitat</li>
+                </ul>
+
+                <br />
+
+                <h4 class="heading-3">Tarif :</h4>
+                <br />
+                <p class="offer__details">
+                    1750€ TTC, le paiement en plusieurs fois
+                    est disponibles.
                 </p>
             </div>
         </div>

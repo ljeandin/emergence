@@ -14,6 +14,10 @@
         gap: $spacing-xs;
         text-align: center;
     }
+
+    &__details {
+        text-align: left;
+    }
 }
 
 .offer-part {
@@ -55,6 +59,7 @@
 
 @media (min-width: $screen-md) {
     .offer__header {
+        padding-top: $spacing-md;
         gap: $spacing-md;
     }
 

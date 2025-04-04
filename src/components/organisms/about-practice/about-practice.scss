@@ -1,5 +1,5 @@
 .about-practice {
-    padding: $spacing-xs $spacing-sm;
+    padding: $spacing-sm;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -16,11 +16,20 @@
         justify-content: space-between;
         align-items: center;
     }
+    &__infos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: $spacing-md;
+    }
+    &__image {
+        object-fit: cover;
+    }
 }
 
 @media (min-width: $screen-lg) {
     .about-practice {
-        padding: 0 $spacing-lg;
+        padding: $spacing-md $spacing-lg;
         gap: $spacing-md;
         max-width: none;
         &__keywords {
