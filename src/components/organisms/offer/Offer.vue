@@ -18,8 +18,8 @@ Vous obtiendrez une <b>méthode complète et guidée</b> pour transformer votre 
             type: "list",
             content: [
                 `<b>1 Atelier d’intention Feng Shui collectif d'une heure par mois</b> posez vos intentions, partagez vos expériences et renforcez votre connexion à votre environnement.`,
-                `<b>1 Séance de questions/réponses d'une heure par semaine :</b> affine ta compréhension et co-construire des solutions décoratives adaptées à ton espace.`,
-                `<b>1 Communauté privée bienveillante et inspirante</b> où tu pourras partager ton parcours, poser tes questions et célébrer tes avancées.`,
+                `<b>1 Séance de questions/réponses d'une heure par semaine :</b> affinez votre compréhension et co-construisons des solutions décoratives adaptées à votre espace.`,
+                `<b>1 Communauté privée bienveillante et inspirante</b> où vous pourrez partager votre parcours, poser vos questions et célébrer vos avancées.`,
             ],
         },
         {
@@ -27,8 +27,8 @@ Vous obtiendrez une <b>méthode complète et guidée</b> pour transformer votre 
             subtitle: "L’ancrage",
             type: "list",
             content: [
-                `<b>Accès à 1 audio par mois :</b> il te guidera au fur et à mesure de l’accompagnement pour manifester la transformation que tu mérites.`,
-                `<b>Découvertes symboliques, purification et lithothérapie:</b> utilise des objets porteurs de sens et intègre la lithothérapie dans les pièces principales. Il est essentiel de rafraichir l’énergie qui a stagné et de se débarrasser des énergies négatives.`,
+                `<b>Accès à 1 audio par mois :</b> il vous guidera au fur et à mesure de l’accompagnement pour manifester la transformation que vous méritez.`,
+                `<b>Découvertes symboliques, purification et lithothérapie:</b> utilisez des objets porteurs de sens et intègrez la lithothérapie dans les pièces principales. Il est essentiel de rafraichir l’énergie qui a stagné et de se débarrasser des énergies négatives.`,
             ],
         },
     ];
@@ -100,7 +100,7 @@ Vous obtiendrez une <b>méthode complète et guidée</b> pour transformer votre 
                     de votre maison. L’objectif est de
                     capter et de diriger le Chi de manière
                     optimale pour qu’il devienne votre allié
-                    au quotidien — plutôt qu’une source
+                    au quotidien plutôt qu’une source
                     invisible de blocages, de fatigue ou de
                     tensions.<br />
                 </p>
@@ -112,20 +112,23 @@ Vous obtiendrez une <b>méthode complète et guidée</b> pour transformer votre 
                 </h4>
                 <br />
                 <p class="offer__details">
-                    <b>Les particuliers et les pros :</b>
+                    <b
+                        >Les particuliers et les
+                        professionnels :</b
+                    >
                     <br /><br />
-                    Qui sont en création des plans de leurs
+                    Qui sont en création des plans de leur
                     futur maison et qui souhaitent
                     déterminer le placement des pièces.<br />
                     <br />
                     Qui emménagent et qui ont des projets
                     décoratifs et souhaitant bénéficier des
-                    meilleures énergies<br />
+                    meilleures énergies.<br />
                     <br />
-                    Qui on envie de renouveau et d’avancer
+                    Qui ont envie de renouveau et d’avancer
                     dans leur vie.<br />
                     <br />
-                    Qui travaillent de chez soi, pour créer
+                    Qui travaillent de chez eux, pour créer
                     un cadre propice à la réussite et à
                     l’abondance.<br />
                 </p>
@@ -173,8 +176,7 @@ Vous obtiendrez une <b>méthode complète et guidée</b> pour transformer votre 
                 <h4 class="heading-3">Tarif :</h4>
                 <br />
                 <p class="offer__details">
-                    1750€ TTC, le paiement en plusieurs fois
-                    est disponibles.
+                    1750€ ou trois mensualités de 620€
                 </p>
             </div>
         </div>
@@ -200,8 +202,10 @@ Vous obtiendrez une <b>méthode complète et guidée</b> pour transformer votre 
                 </div>
                 <ul v-else>
                     <li
-                        v-for="(item, idx) in offer.content"
-                        :key="idx"
+                        v-for="(
+                            item, index
+                        ) in offer.content"
+                        :key="index"
                         v-html="item"
                     ></li>
                 </ul>

@@ -45,10 +45,10 @@
             />
 
             <h2
-                class="about-practice__infos-title heading-3"
+                class="about-practice__infos-title heading-2"
             >
                 Qu’est-ce que le Feng Shui traditionnel et
-                comment il transforme votre espace ?
+                comment il vous transforme ?
             </h2>
 
             <p>
@@ -59,7 +59,7 @@
                 <br />
                 Le Feng Shui, c’est avant tout l’art de
                 rééquilibrer et d’optimiser la circulation
-                de l’énergie vitale qui est le Chi ou QI QI,
+                de l’énergie vitale qui est le Chi ou QI,
                 dans votre espace de vie. On pourrait le
                 comparer à une forme d’acupuncture de
                 l’habitat : au lieu d’aiguilles, nous
@@ -73,13 +73,57 @@
                 Chaque recommandation repose sur le principe
                 des cinq éléments (Bois, Feu, Terre, Métal,
                 Eau) et le Yin et Yang, qui interagissent
-                entre eux pour créer équilibre ou
-                déséquilibre. C’est grâce au Feng Shui
-                traditionnel, notamment la méthode des
-                étoiles volantes et nos directions
-                favorables que la vraie transformation peut
-                s’opérer.
+                entre eux pour créer un équilibre. C’est
+                grâce au Feng Shui traditionnel, notamment
+                la méthode des étoiles volantes et nos
+                directions favorables que la vraie
+                transformation peut s’opérer.
             </p>
+
+            <h3
+                class="about-practice__infos-title heading-3"
+            >
+                Quels en sont les bénéfices ?
+            </h3>
+            <ul>
+                <li>
+                    Renforcement des liens affectifs
+                    (partenaire, enfants, entourage proche)
+                </li>
+
+                <li>
+                    Déploiement de vos talents et de votre
+                    mission de vie
+                </li>
+
+                <li>
+                    Fluidification des projets concrets et
+                    des flux financiers
+                </li>
+
+                <li>
+                    Retrouver vitalité, équilibre et
+                    légèreté au quotidien
+                </li>
+                <li>
+                    Améliorer la qualité et la profondeur du
+                    sommeil
+                </li>
+
+                <li>
+                    Stimuler l’attention, la clarté d’esprit
+                    et la motivation
+                </li>
+
+                <li>
+                    Booster la croissance de votre
+                    entreprise ou activité indépendante
+                </li>
+                <li>
+                    Élever la vibration énergétique de vos
+                    lieux
+                </li>
+            </ul>
         </div>
     </section>
 </template>

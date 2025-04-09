@@ -4,9 +4,9 @@
             <h2 class="heading-4">Contact</h2>
             <a
                 class="button-discrete"
-                href="mailto:contact.emergencefengshui@gmail.com"
+                href="mailto:contact@emergence-fengshui.fr"
             >
-                contact.emergencefengshui@gmail.com
+                contact@emergence-fengshui.fr
             </a>
             <a
                 class="button-discrete"

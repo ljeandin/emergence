@@ -44,7 +44,10 @@
             />
             <div class="testimonial__text">
                 <h2 class="testimonial__title heading-2">
-                    {{ testimonial.name }}
+                    {{ testimonial.name }},
+                    <i class="heading-3"
+                        >ancienne collègue</i
+                    >
                 </h2>
                 <img
                     class="testimonial__quote-icon"

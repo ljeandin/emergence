@@ -17,12 +17,5 @@
                 Discutons de votre projet Feng Shui
             </a>
         </div>
-        <div class="hero__image-wrapper">
-            <img
-                class="hero__image"
-                src="/src/assets/images/hero/hero_image.jpg"
-                alt=""
-            />
-        </div>
     </section>
 </template>

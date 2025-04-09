@@ -47,7 +47,6 @@ em {
     font-display: swap;
     font-size: 2.5 * $spacing;
     font-weight: 400;
-    font-style: normal;
     letter-spacing: 2px;
     line-height: 150%;
 }
@@ -57,7 +56,6 @@ em {
     font-optical-sizing: auto;
     font-size: 2.5 * $spacing;
     font-weight: 400;
-    font-style: normal;
 }
 
 .heading-3 {
@@ -65,7 +63,6 @@ em {
     font-optical-sizing: auto;
     font-size: $spacing-xxs;
     font-weight: 400;
-    font-style: normal;
 }
 
 .heading-4 {
@@ -73,7 +70,6 @@ em {
     font-optical-sizing: auto;
     font-size: 1.5 * $spacing;
     font-weight: 400;
-    font-style: normal;
 }
 
 @media (min-width: $screen-xl) {

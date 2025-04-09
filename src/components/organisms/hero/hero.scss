@@ -1,6 +1,6 @@
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: $spacing-sm $spacing-xxs;
     background-image: url(/src/assets/images/hero/hero_background.jpg);
@@ -13,10 +13,6 @@
         flex-direction: column;
         align-items: center;
         gap: $spacing-xs;
-    }
-
-    &__image-wrapper {
-        display: none;
     }
 }
 
@@ -33,17 +29,6 @@
         &__text {
             width: 50%;
             min-width: 65 * $spacing;
-        }
-
-        &__image-wrapper {
-            display: flex;
-            justify-content: center;
-            width: 50%;
-        }
-
-        &__image {
-            width: 100%;
-            max-width: 45 * $spacing;
         }
     }
 }
