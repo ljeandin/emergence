@@ -2,10 +2,18 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: $spacing-xs;
+    align-items: center;
     padding: $spacing-sm;
     padding-bottom: $spacing-md;
     background: $color-background;
+    scroll-margin-top: $header-height;
+
+    &__content-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: $spacing-xs;
+    }
 
     &__text {
         max-width: 60ch;
@@ -23,7 +31,9 @@
 
 @media (min-width: $screen-md) {
     .about {
-        flex-direction: row;
+        &__content-wrapper {
+            flex-direction: row;
+        }
 
         &__image {
             max-width: 40%;
@@ -34,7 +44,6 @@
 @media (min-width: $screen-lg) {
     .about {
         padding: $spacing-md $spacing-xl;
-        align-items: flex-end;
 
         &__image {
             max-height: none;

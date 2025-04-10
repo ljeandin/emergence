@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: $spacing-md;
+    scroll-margin-top: $header-height;
 
     &__header {
         padding: $spacing-xs $spacing-sm;
