@@ -16,14 +16,16 @@
         <Testimonials />
         <img
             class="decorative-banner"
-            src="/src/assets/images/banners/banner_grass.jpg"
+            src="/src/assets/images/banners/banner_decorative_1.webp"
             alt=""
+            style="object-position: 56%"
         />
         <Offer />
         <img
             class="decorative-banner"
-            src="/src/assets/images/banners/banner_people.jpg"
+            src="/src/assets/images/banners/banner_decorative_2.webp"
             alt=""
+            style="object-position: 7%"
         />
         <About />
         <Footer />

@@ -35,7 +35,7 @@ Vous obtiendrez une <b>méthode complète et guidée</b> pour transformer votre 
 
     const part_image_URL_maker = function (imageNumber) {
         return new URL(
-            `../../../assets/images/offer/offer_part_${imageNumber}.jpg`,
+            `../../../assets/images/offer/offer_part_${imageNumber}.webp`,
             import.meta.url
         ).href;
     };

@@ -38,7 +38,7 @@
         >
             <img
                 class="about-practice__image"
-                src="@/assets/images/about_feng_shui/about_feng_shui.jpg"
+                src="@/assets/images/about_feng_shui/about_feng_shui.webp"
                 alt=""
                 width="300"
                 height="300"

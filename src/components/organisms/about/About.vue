@@ -6,7 +6,7 @@
         <div class="about__content-wrapper">
             <img
                 class="about__image"
-                src="@/assets/images/about/about_portrait.jpg"
+                src="@/assets/images/about/about_portrait.webp"
                 alt=""
             />
             <div class="about__text">
