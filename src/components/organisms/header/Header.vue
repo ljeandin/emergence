@@ -35,9 +35,13 @@
     <header class="header">
         <a
             href="#accueil"
-            class="header__title heading-4"
+            class="heading-4 header__logo--mobile"
         >
-            <h1>Émergence feng-shui</h1>
+            <img
+                src="@/assets/images/header/logo.webp"
+                class="header__logo"
+                alt="Émergence Feng Shui"
+            />
         </a>
 
         <button
@@ -68,7 +72,27 @@
                     isFullyHidden,
             }"
         >
-            <span v-for="link in navLinks">
+            <span v-for="link in navLinks.slice(0, 3)">
+                <a
+                    class="header__link"
+                    :key="link.name"
+                    :href="link.link"
+                    @click="isMenuOpen = false"
+                >
+                    {{ link.name }}
+                </a>
+            </span>
+            <a
+                href="#accueil"
+                class="heading-4 header__logo--desktop"
+            >
+                <img
+                    src="@/assets/images/header/logo.webp"
+                    class="header__logo"
+                    alt="Émergence Feng Shui"
+                />
+            </a>
+            <span v-for="link in navLinks.slice(3)">
                 <a
                     class="header__link"
                     :key="link.name"

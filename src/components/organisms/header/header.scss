@@ -13,6 +13,16 @@
     align-items: center;
     padding: 0 $spacing-xxs;
 
+    &__logo {
+        width: 8 * $spacing;
+        height: 8 * $spacing;
+        object-fit: cover;
+    }
+
+    &__logo--desktop {
+        display: none;
+    }
+
     &__burger-menu {
         position: relative;
         z-index: 1;
@@ -64,7 +74,11 @@
     .header {
         padding: 0 $spacing-sm;
 
-        &__title {
+        &__logo--desktop {
+            display: inline;
+        }
+
+        &__logo--mobile {
             display: none;
         }
 

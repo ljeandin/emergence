@@ -12,6 +12,7 @@
 
     &__title {
         align-self: flex-start;
+        margin-bottom: $spacing-xs;
     }
 }
 
@@ -41,7 +42,8 @@
     .testimonial {
         flex-direction: row;
         align-items: flex-end;
-        padding: $spacing-sm 0 $spacing-sm $spacing-md;
+        // Padding to compensate for the quote-icon
+        padding-left: 2.25rem;
 
         &__text {
             position: static;
