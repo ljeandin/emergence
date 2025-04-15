@@ -20,7 +20,7 @@
 
     const navLinks = [
         { name: "Accueil", link: "#accueil" },
-        { name: "Le feng-shui", link: "#le-feng-shui" },
+        { name: "Le feng shui", link: "#le-feng-shui" },
         { name: "Témoignages", link: "#temoignages" },
         { name: "Services", link: "#services" },
         { name: "À propos", link: "#a-propos" },

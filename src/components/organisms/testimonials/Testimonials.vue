@@ -21,7 +21,7 @@
         id="temoignages"
     >
         <div class="testimonials__content-wrapper">
-            <h2 class="testimonials__title heading-2">
+            <h2 class="testimonials__title heading-3">
                 <i>Elles parlent de moi :</i>
             </h2>
             <div
@@ -31,10 +31,10 @@
             >
                 <div class="testimonial__text">
                     <h2
-                        class="testimonial__title heading-2"
+                        class="testimonial__title heading-4"
                     >
                         {{ testimonial.name }},
-                        <i class="heading-3">
+                        <i class="heading-4">
                             ancienne collègue
                         </i>
                     </h2>
